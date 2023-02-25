@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 0;
+  padding: 0;
+}
+#primeiro-cabecalho {
+  display: inline;
+  background-color: black;
+}
+.logo-primeira-pagina {
+  position: relative;
+  width: 250px;
+  align-items: center;
+}
+h1 {
+  position: relative;
+  left: 150px;
+  background-color: aqua;
+}
