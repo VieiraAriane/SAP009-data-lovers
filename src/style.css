@@ -251,7 +251,7 @@ a:hover {
   width: 5%;
 }
 
-@media screen and(max-width: 820px) {
+@media screen and(max-width: 900px) {
   .info {
     margin-bottom: 2px;
   }
@@ -323,4 +323,3 @@ a:hover {
     display: none;
   }
 }
-
