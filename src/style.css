@@ -253,7 +253,11 @@ a:hover {
 
 @media screen and(max-width: 900px) {
   .info {
-    margin-bottom: 2px;
+    display: none;
+  }
+  .menu-fixo {
+    top: calc(5%);
+    margin-bottom: calc(15%);
   }
   #calculo-agregado {
     margin-top: 3rem;
