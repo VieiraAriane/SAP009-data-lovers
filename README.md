@@ -4,7 +4,7 @@
 
 <p align="justify">Data Lovers - League Of Legends foi o segundo projeto desenvolvido no bootcamp da Laboratória, tem como objetivo ajudar jogadores e novos jogadores a conhecerem melhor os campeões presentes em Summoner's Rift apresentando informações como tipo e nível de ataque, defesa, magia e dificuldade de cada campeão, bem como, disponibiliza um filtro de pesquisa através do nome do campeão.</p>
 
-### <h3 align="center"> 💻 A página web está disponível na seguinte url: https://thainaratabile.github.io/SAP009-data-lovers/src/</h3>
+### <h3 align="center"> 💻 A página web está disponível na seguinte url: https://vieiraariane.github.io/SAP009-data-lovers/src/</h3>
 
 <div align="center">
 <img align="center" alt="git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
