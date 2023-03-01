@@ -35,17 +35,18 @@ function mostraCards(campeoes) {
                         <h2 id="nome-do-card">${campeao.name.toUpperCase()}</h2>
                     </div>
                     <div class="card-verso">
-                    <h3 class="nome-verso">${campeao.name.toUpperCase()}</h3>
-                        <ul class="info-do-card">
-                            <li>ATAQUE: ${campeao.info.attack}</li>
-                            <li>DEFESA: ${campeao.info.defense}</li>
-                            <li>MAGIA: ${campeao.info.magic}</li>
-                            <li>DIFICULDADE: ${campeao.info.difficulty}</li>
+                    <ul class="info-do-card">
+                    <h3 class="nome-verso"><strong>${campeao.name.toUpperCase()}</strong></h3>
+                            <li>Ataque: ${campeao.info.attack}</li>
+                            <li>Defesa: ${campeao.info.defense}</li>
+                            <li>Magia: ${campeao.info.magic}</li>
+                            <li>Dificuldade: ${campeao.info.difficulty}</li>
+                            <li> <strong> ${campeao.tags.map(traduz)} </strong></li> 
                         </ul>
-                        <li class="info-do-card"> TIPO: ${campeao.tags.map(traduz)} </li> 
                     </div>
                 </div>
             </div>
+       
         `
   ).join('')
 }

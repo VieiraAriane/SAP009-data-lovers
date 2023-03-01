@@ -1,26 +1,146 @@
 * {
   margin: 0;
   padding: 0;
-  width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://giffiles.alphacoders.com/276/2766.gif);
 }
 header {
   display: flex;
-  flex-wrap: wrap-reverse;
-  margin: 0;
-  padding: 0;
-}
-#primeiro-cabecalho {
-  display: inline;
-  background-color: black;
-}
-.logo-primeira-pagina {
-  position: relative;
-  width: 250px;
+  justify-content: center;
   align-items: center;
+  background-color: black;
+  height: 100px;
+}
+
+.primeiro-cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-primeira-pagina {
+  width: 270px;
+  height: auto;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: calc(100vh - 100px); */
 }
 h1 {
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0px #403001, -1px 1px 0px #403001, 1px -1px 0px #403001,
+    1px 0px 0px #403001;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 30px;
+}
+h3 a:hover {
+  color: #bf8a26;
+}
+.iniciar {
   position: relative;
-  left: 150px;
-  background-color: aqua;
+  color: white;
+  background-color: rgb(8, 63, 85);
+  padding: 15px 15px;
+  border: 2px solid rgb(161, 108, 35);
+  border-radius: 8px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.imagem {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  align-items: flex-end;
+  height: calc(67vh - 100px);
+}
+
+.imagem-principal {
+  position: absolute;
+  bottom: -30px;
+  right: 0px;
+  width: calc(100vw - 50%);
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 0;
+  width: 100%;
+  bottom: 0%;
+  position: fixed;
+  justify-content: center;
+  height: 100px;
+}
+footer a {
+  color: white;
+}
+@media screen and (max-width: 667px) {
+  .imagem {
+    width: 0;
+  }
+  .logo-primeira-pagina {
+    width: 182px;
+    height: auto;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .iniciar {
+    padding: 8px 10px;
+    font-size: 1rem;
+  }
+  .imagem-principal {
+    position: fixed;
+    bottom: 90px;
+    right: 2px;
+    width: calc(171vw - 60%);
+    height: auto;
+  }
+}
+@media screen and (max-width: 920px) {
+  .imagem {
+    width: 0;
+  }
+  .logo-primeira-pagina {
+    width: 182px;
+    height: auto;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .iniciar {
+    padding: 8px 10px;
+    font-size: 1rem;
+  }
+  .imagem-principal {
+    position: fixed;
+    bottom: 79px;
+    right: 0px;
+    width: calc(171vw - 60%);
+    height: auto;
+  }
 }
